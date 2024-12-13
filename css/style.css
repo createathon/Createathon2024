@@ -197,3 +197,38 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem; /* Reduced font size */
 }
 
+/* For Queries section */
+.queries-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  color: cyan;
+  font-weight: 700;
+  font-size: xx-large;
+  background-color: #262626;
+}
+
+.queries-content {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.queries-content p, .queries-content ul {
+  margin: 40px;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.queries-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.queries-content li {
+  margin: 10px 0;
+}
+

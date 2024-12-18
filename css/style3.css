@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&display=swap");
 @import url("http://astronautweb.co/snippet/font-awesome/css/font-awesome.min.css");
+
 :root {
   --font-size: 0.8em;
   --bg1: #2f2f2f;
@@ -15,9 +16,9 @@
   --shadow2: 0 2px 6px #00000044, 0 4px 7px #00000022;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .infoGraphicContainer {
@@ -36,20 +37,23 @@ ul.infoGraphic {
   justify-content: space-around;
   margin-bottom: 2em;
 }
+
 ul.infoGraphic li {
   position: relative;
   width: 100%;
   max-width: 25em;
-  background: #2f2f2f; 
+  background: #2f2f2f;
   border-radius: 0.5em;
   padding: 0.5em;
   z-index: 1;
   transition: all 0.2s;
   cursor: pointer;
 }
+
 ul.infoGraphic li .numberWrap {
   position: absolute;
 }
+
 ul.infoGraphic li .number {
   font-family: "maven pro", sans-serif;
   font-size: 13em;
@@ -57,24 +61,31 @@ ul.infoGraphic li .number {
   width: 0.9em;
   text-align: center;
 }
+
 ul.infoGraphic li .number.fontColor1 {
   color: var(--blue);
 }
+
 ul.infoGraphic li .number.fontColor2 {
   color: var(--green);
 }
+
 ul.infoGraphic li .number.fontColor3 {
   color: var(--purple);
 }
+
 ul.infoGraphic li .number.fontColor4 {
   color: var(--gold);
 }
+
 ul.infoGraphic li .number.fontColor5 {
   color: var(--red);
 }
+
 ul.infoGraphic li .number.fontColor6 {
   color: var(--orange);
 }
+
 ul.infoGraphic li .coverWrap {
   transform: rotate(130deg);
   position: absolute;
@@ -83,6 +94,7 @@ ul.infoGraphic li .coverWrap {
   left: -3em;
   top: -1em;
 }
+
 ul.infoGraphic li .coverWrap .numberCover {
   position: absolute;
   background: var(--bg1);
@@ -92,6 +104,7 @@ ul.infoGraphic li .coverWrap .numberCover {
   border-bottom: 3px solid #f5f8f7;
   transition: all 0.4s;
 }
+
 ul.infoGraphic li .coverWrap .numberCover::before {
   position: absolute;
   content: "";
@@ -103,6 +116,7 @@ ul.infoGraphic li .coverWrap .numberCover::before {
   border-radius: 100px/10px;
   z-index: -1;
 }
+
 ul.infoGraphic li .coverWrap .numberCover::after {
   position: absolute;
   bottom: 0;
@@ -113,10 +127,12 @@ ul.infoGraphic li .coverWrap .numberCover::after {
   background: radial-gradient(at bottom, #262626, transparent, transparent);
   z-index: 1;
 }
+
 ul.infoGraphic li .content {
   margin: 8em 3em 1em 7em;
   position: relative;
 }
+
 ul.infoGraphic li .content h2 {
   font-size: 1.7em;
   font-weight: 500;
@@ -125,6 +141,7 @@ ul.infoGraphic li .content h2 {
   text-transform: uppercase;
   color: cyan;
 }
+
 ul.infoGraphic li .content p {
   line-height: 1.5em;
   color: cyan;
@@ -142,6 +159,7 @@ ul.infoGraphic li:hover .coverWrap .numberCover {
   left: 50%;
   transform: translatex(-50%);
 }
+
 .icon2:before {
   color: cyan;
   font-family: FontAwesome;
@@ -190,14 +208,14 @@ html {
   background-color: var(--bg1);
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  width: 400px;  
-  max-height: 90vh; 
+  width: 400px;
+  max-height: 90vh;
   text-align: center;
-  overflow-y: auto; 
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .con2 {
@@ -206,14 +224,14 @@ html {
   background-color: var(--bg1);
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  width: 80%;  
-  max-height: 90vh; 
+  width: 80%;
+  max-height: 90vh;
   text-align: center;
-  overflow-y: auto; 
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .rules-banner {
@@ -222,11 +240,11 @@ html {
   font-weight: bold;
   color: white;
   margin-bottom: 20px;
-  background-color: #2f2f2f; 
+  background-color: #2f2f2f;
 }
 
 .title {
-  display: none; 
+  display: none;
 }
 
 .dropdown {
@@ -234,7 +252,9 @@ html {
   width: 100%;
 }
 
-.dropdown1, .dropdown2, .dropdown3 {
+.dropdown1,
+.dropdown2,
+.dropdown3 {
   background-color: var(--blue);
   color: #fff;
   padding: 10px 20px;
@@ -267,7 +287,7 @@ html {
 }
 
 .dropdown1:hover {
-  background-color: #ff6666; 
+  background-color: #ff6666;
 }
 
 .dropdown2 {
@@ -287,7 +307,7 @@ html {
 }
 
 .dropdown2:hover {
-  background-color: #66ff66; 
+  background-color: #66ff66;
 }
 
 .dropdown3 {
@@ -307,10 +327,12 @@ html {
 }
 
 .dropdown3:hover {
-  background-color: #66b2ff; 
+  background-color: #66b2ff;
 }
 
-.dropdown1, .dropdown2, .dropdown3 {
+.dropdown1,
+.dropdown2,
+.dropdown3 {
   padding: 10px;
   color: #fff;
   margin-top: 5px;
@@ -327,25 +349,25 @@ html {
   border-radius: 5px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out; 
+  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
 .dropdown-content1 {
-  box-shadow: 0 4px 6px rgba(231, 5, 5, 0.541); 
+  box-shadow: 0 4px 6px rgba(231, 5, 5, 0.541);
 }
 
 .dropdown-content2 {
-  box-shadow: 0 4px 6px rgba(5, 231, 5, 0.534); 
+  box-shadow: 0 4px 6px rgba(5, 231, 5, 0.534);
 }
 
 .dropdown-content3 {
-  box-shadow: 0 4px 6px rgba(5, 95, 231, 0.521); 
+  box-shadow: 0 4px 6px rgba(5, 95, 231, 0.521);
 }
 
 .dropdown.active .dropdown-content {
   display: block;
-  max-height: 500px; 
-  padding: 10px; 
+  max-height: 500px;
+  padding: 10px;
 }
 
 .dropdown .dropdown1 span {
@@ -363,11 +385,12 @@ html {
   font-weight: bold;
 }
 
-.dropdown-content p, .dropdown-content ul {
+.dropdown-content p,
+.dropdown-content ul {
   font-size: var(--font-size);
   line-height: 1.5;
-  color: #fff; 
-  text-align: left; 
+  color: #fff;
+  text-align: left;
 }
 
 .dropdown-content ul {
@@ -380,33 +403,31 @@ html {
   color: var(--white);
 }
 
-.rules-banner{
+.rules-banner {
   background-color: #262626;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-  .about-content p, .outcome-content p {
-    line-height: 1.2; /* Reduced line spacing */
+  .about-content p,
+  .outcome-content p {
+    line-height: 1.2;
   }
-  /* ...existing code... */
 }
-/* General Styles */
+
 .z1 {
   text-align: center;
 }
 
-/* Circle Image */
 .circle-img {
-  width: 120px; /* Adjust as needed */
+  width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto;
 }
 
-/* Slideshow Styles */
 .slideshow {
   overflow: hidden;
   width: 100%;
@@ -419,24 +440,22 @@ html {
 .slide {
   display: flex;
   animation: slide-animation 10s linear infinite;
-  gap: 20px; /* Adjust spacing between profiles */
+  gap: 20px;
 }
 
-/* Animation */
 @keyframes slide-animation {
   0% {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
   100% {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 
-/* Profile Card */
 .profile {
   text-align: center;
   padding: 10px;
-  flex-shrink: 0; /* Prevent shrinking during animation */
+  flex-shrink: 0;
 }
 
 .name {

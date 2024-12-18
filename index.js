@@ -12,3 +12,19 @@ function toggleDropdown(button) {
     content.style.maxHeight = "0";
   }
 }
+
+document.querySelector('.button2').addEventListener('click', function() {
+  document.querySelector('.button3').scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+window.addEventListener('scroll', function() {
+  const scrollButton = document.querySelector('.scroll-button');
+  const button3 = document.querySelector('.button3');
+  const button3Position = button3.getBoundingClientRect().top + window.scrollY;
+
+  if (window.scrollY > button3Position) {
+    scrollButton.style.display = 'block';
+  } else {
+    scrollButton.style.display = 'none';
+  }
+});

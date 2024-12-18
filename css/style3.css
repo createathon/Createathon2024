@@ -7,8 +7,8 @@
   --bg1: #2f2f2f;
   --blue: #3498db;
   --green: #2ecc71;
-  --purple: #9b59b6;
   --gold: #f1c40f;
+  --purple: #9b59b6;
   --red: #e74c3c;
   --orange: #e67e22;
   --shadow1: 0 2px 4px #00000026, 0 3px 6px #0000001f;
@@ -200,6 +200,22 @@ html {
   margin: 0 auto; 
 }
 
+.con2 {
+  color: white;
+  padding: 20px;
+  background-color: var(--bg1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 80%;  
+  max-height: 90vh; 
+  text-align: center;
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto; 
+}
+
 .rules-banner {
   text-align: center;
   font-size: 2em;
@@ -375,4 +391,61 @@ html {
     line-height: 1.2; /* Reduced line spacing */
   }
   /* ...existing code... */
+}
+/* General Styles */
+.z1 {
+  text-align: center;
+}
+
+/* Circle Image */
+.circle-img {
+  width: 120px; /* Adjust as needed */
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+/* Slideshow Styles */
+.slideshow {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  display: flex;
+  animation: slide-animation 10s linear infinite;
+  gap: 20px; /* Adjust spacing between profiles */
+}
+
+/* Animation */
+@keyframes slide-animation {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+/* Profile Card */
+.profile {
+  text-align: center;
+  padding: 10px;
+  flex-shrink: 0; /* Prevent shrinking during animation */
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.i1 a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: inherit;
 }

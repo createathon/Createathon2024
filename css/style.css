@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   transition: background-color 0.3s;
   text-decoration: none;
-  display: none; /* Initially hidden */
+  display: none; 
 }
 
 .scroll-button:hover {
@@ -294,7 +294,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .poster {
   display: block;
-  margin: 20px auto; /* Center align the image */
+  margin: 20px auto; 
   position: relative;
   align-content: center;
+}
+
+.button3 {
+
+  transition: background-color 0.3s, color 0.3s;
+}
+.button3:hover {
+  background-color: cyan;
+  color: var(--bg1);
+}
+.button3:active {
+  transform: scale(0.95);
 }

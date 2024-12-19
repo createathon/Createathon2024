@@ -28,8 +28,3 @@ window.addEventListener('scroll', function() {
     scrollButton.style.display = 'none';
   }
 });
-
-
-document.querySelector('.button2').addEventListener('mouseover', function() {
-  document.querySelector('.button3').style.transition = 'transform 1s ease, background-color 1s ease';
-});

@@ -41,7 +41,7 @@
     }
 
     .profile img {
-        width: 100px;
+        width: 100px; /* Adjust as needed */
         height: 100px;
     }
 
@@ -50,7 +50,7 @@
     }
 
     .i1 a {
-        font-size: 1.5em;
+        font-size: 1.5em; /* Adjust icon size */
     }
 
     .con2 {
@@ -63,22 +63,27 @@
     }
 
     .con1 {
-        width: 90%;
+        width: 90%; /* Adjust width for small screens */
         padding: 10px;
         font-size: 0.85rem;
     }
 
     .dropdown1, .dropdown2, .dropdown3 {
-        font-size: 1rem;
+        font-size: 1rem; /* Adjust font size for small screens */
     }
 
     .dropdown-content {
-        font-size: 0.85rem;
+        font-size: 0.85rem; /* Adjust font size for small screens */
     }
 
     .button2 {
         padding: 2.5px 5px;
         font-size: 0.8rem;
         text-align: center;
+    }
+
+    .poster {
+        width: 100%;
+        height: auto;
     }
 }
